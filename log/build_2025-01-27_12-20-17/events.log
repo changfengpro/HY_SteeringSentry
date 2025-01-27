@@ -1,0 +1,484 @@
+[0.000000] (-) TimerEvent: {}
+[0.000672] (cmd_vel_sender) JobQueued: {'identifier': 'cmd_vel_sender', 'dependencies': OrderedDict()}
+[0.000706] (cmd_vel_sender) JobStarted: {'identifier': 'cmd_vel_sender'}
+[0.008752] (cmd_vel_sender) JobProgress: {'identifier': 'cmd_vel_sender', 'progress': 'cmake'}
+[0.009016] (cmd_vel_sender) Command: {'cmd': ['/usr/local/bin/cmake', '/home/rmer/ros2/sentry/cmd_vel_sender', '-DCMAKE_INSTALL_PREFIX=/home/rmer/ros2/sentry/install/cmd_vel_sender'], 'cwd': '/home/rmer/ros2/sentry/build/cmd_vel_sender', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1927'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afc13d43177ed36d2a6fd738679708bc'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/1927,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/1927'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75b6c527_ad56_4176_a0c1_da0508217d11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8fe68ad677.sock'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/sentry/build/cmd_vel_sender'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afc13d43177ed36d2a6fd738679708bc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.091247] (cmd_vel_sender) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099672] (-) TimerEvent: {}
+[0.152376] (cmd_vel_sender) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.163500] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199820] (-) TimerEvent: {}
+[0.242146] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.258220] (cmd_vel_sender) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.261760] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.263504] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.278686] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299971] (-) TimerEvent: {}
+[0.362725] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.380175] (cmd_vel_sender) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.380687] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.381285] (cmd_vel_sender) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393784] (cmd_vel_sender) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400067] (-) TimerEvent: {}
+[0.500377] (-) TimerEvent: {}
+[0.513977] (cmd_vel_sender) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.600486] (-) TimerEvent: {}
+[0.607633] (cmd_vel_sender) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.655929] (cmd_vel_sender) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.661524] (cmd_vel_sender) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.671214] (cmd_vel_sender) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.686463] (cmd_vel_sender) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700623] (-) TimerEvent: {}
+[0.706874] (cmd_vel_sender) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.762265] (cmd_vel_sender) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.765504] (cmd_vel_sender) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800745] (-) TimerEvent: {}
+[0.878754] (cmd_vel_sender) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.900903] (-) TimerEvent: {}
+[0.912025] (cmd_vel_sender) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.957743] (cmd_vel_sender) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.970686] (cmd_vel_sender) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001101] (-) TimerEvent: {}
+[1.053712] (cmd_vel_sender) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.054722] (cmd_vel_sender) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.101344] (-) TimerEvent: {}
+[1.121243] (cmd_vel_sender) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.201459] (-) TimerEvent: {}
+[1.202306] (cmd_vel_sender) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.218524] (cmd_vel_sender) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.218912] (cmd_vel_sender) StdoutLine: {'line': b'-- Build files have been written to: /home/rmer/ros2/sentry/build/cmd_vel_sender\n'}
+[1.230042] (cmd_vel_sender) CommandEnded: {'returncode': 0}
+[1.231124] (cmd_vel_sender) JobProgress: {'identifier': 'cmd_vel_sender', 'progress': 'build'}
+[1.232314] (cmd_vel_sender) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/rmer/ros2/sentry/build/cmd_vel_sender', '--', '-j16', '-l16'], 'cwd': '/home/rmer/ros2/sentry/build/cmd_vel_sender', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1927'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afc13d43177ed36d2a6fd738679708bc'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/1927,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/1927'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75b6c527_ad56_4176_a0c1_da0508217d11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8fe68ad677.sock'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/sentry/build/cmd_vel_sender'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afc13d43177ed36d2a6fd738679708bc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.266546] (cmd_vel_sender) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o\x1b[0m\n'}
+[1.266858] (cmd_vel_sender) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/include/cmd_vel_sender/serial.cpp.o\x1b[0m\n'}
+[1.266993] (cmd_vel_sender) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o\x1b[0m\n'}
+[1.267159] (cmd_vel_sender) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/include/cmd_vel_sender/serial.cpp.o\x1b[0m\n'}
+[1.301626] (-) TimerEvent: {}
+[1.402082] (-) TimerEvent: {}
+[1.502549] (-) TimerEvent: {}
+[1.603161] (-) TimerEvent: {}
+[1.703696] (-) TimerEvent: {}
+[1.804045] (-) TimerEvent: {}
+[1.835446] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Serial::search_device_serial()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.835879] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.835970] (cmd_vel_sender) StderrLine: {'line': b'  328 |     \x1b[01;35m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.836040] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.836093] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:291:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudev\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.836144] (cmd_vel_sender) StderrLine: {'line': b'  291 |     struct udev *\x1b[01;35m\x1b[Kudev\x1b[m\x1b[K = udev_new();\n'}
+[1.836210] (cmd_vel_sender) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.836259] (cmd_vel_sender) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/./serial.hpp:22\x1b[m\x1b[K,\n'}
+[1.836311] (cmd_vel_sender) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:1\x1b[m\x1b[K:\n'}
+[1.836361] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.836413] (cmd_vel_sender) StderrLine: {'line': b'   20 | struct \x1b[01;36m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.836460] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.836508] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.836558] (cmd_vel_sender) StderrLine: {'line': b'  328 |     \x1b[01;36m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.836606] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.836653] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.836720] (cmd_vel_sender) StderrLine: {'line': b'  329 |     \x1b[01;35m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.836767] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.836815] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:298:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenumerate\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.836864] (cmd_vel_sender) StderrLine: {'line': b'  298 |     struct udev_enumerate *\x1b[01;35m\x1b[Kenumerate\x1b[m\x1b[K = udev_enumerate_new(udev);\n'}
+[1.836912] (cmd_vel_sender) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.836960] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:126:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_enumerate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.837007] (cmd_vel_sender) StderrLine: {'line': b'  126 | struct \x1b[01;36m\x1b[Kudev_enumerate\x1b[m\x1b[K;\n'}
+[1.837053] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.837100] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.837162] (cmd_vel_sender) StderrLine: {'line': b'  329 |     \x1b[01;36m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.837209] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.837256] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.837305] (cmd_vel_sender) StderrLine: {'line': b'  330 |     \x1b[01;35m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.837353] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.837401] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:304:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevices\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.837452] (cmd_vel_sender) StderrLine: {'line': b'  304 |     struct udev_list_entry *\x1b[01;35m\x1b[Kdevices\x1b[m\x1b[K = udev_enumerate_get_list_entry(enumerate);\n'}
+[1.837501] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.837554] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.837609] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.837677] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.837739] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.837840] (cmd_vel_sender) StderrLine: {'line': b'  330 |     \x1b[01;36m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.838019] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.838231] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.838320] (cmd_vel_sender) StderrLine: {'line': b'  331 |     \x1b[01;35m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.838371] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.838418] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:306:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.838468] (cmd_vel_sender) StderrLine: {'line': b'  306 |     struct udev_list_entry *\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K;\n'}
+[1.838519] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.838566] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.838613] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.838666] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.838713] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.838761] (cmd_vel_sender) StderrLine: {'line': b'  331 |     \x1b[01;36m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.838807] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.838853] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::get_attrs_serial(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.838900] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.838955] (cmd_vel_sender) StderrLine: {'line': b'  390 |     \x1b[01;35m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.839005] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.839075] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:337:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudev\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.839131] (cmd_vel_sender) StderrLine: {'line': b'  337 |     struct udev *\x1b[01;35m\x1b[Kudev\x1b[m\x1b[K = udev_new();\n'}
+[1.839178] (cmd_vel_sender) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.839224] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.839271] (cmd_vel_sender) StderrLine: {'line': b'   20 | struct \x1b[01;36m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.839318] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.839366] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.839420] (cmd_vel_sender) StderrLine: {'line': b'  390 |     \x1b[01;36m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.839966] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840024] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.840077] (cmd_vel_sender) StderrLine: {'line': b'  391 |     \x1b[01;35m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.840126] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840174] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:344:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenumerate\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.840237] (cmd_vel_sender) StderrLine: {'line': b'  344 |     struct udev_enumerate *\x1b[01;35m\x1b[Kenumerate\x1b[m\x1b[K = udev_enumerate_new(udev);\n'}
+[1.840293] (cmd_vel_sender) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840343] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:126:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_enumerate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.840404] (cmd_vel_sender) StderrLine: {'line': b'  126 | struct \x1b[01;36m\x1b[Kudev_enumerate\x1b[m\x1b[K;\n'}
+[1.840453] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840501] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.840560] (cmd_vel_sender) StderrLine: {'line': b'  391 |     \x1b[01;36m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.840608] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840662] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.840715] (cmd_vel_sender) StderrLine: {'line': b'  392 |     \x1b[01;35m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.840763] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840811] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:350:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevices\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.840861] (cmd_vel_sender) StderrLine: {'line': b'  350 |     struct udev_list_entry *\x1b[01;35m\x1b[Kdevices\x1b[m\x1b[K = udev_enumerate_get_list_entry(enumerate);\n'}
+[1.840914] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.840965] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.841016] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.841065] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.841114] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.841165] (cmd_vel_sender) StderrLine: {'line': b'  392 |     \x1b[01;36m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.841214] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.841263] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.841325] (cmd_vel_sender) StderrLine: {'line': b'  393 |     \x1b[01;35m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.841382] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.841430] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:352:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.841482] (cmd_vel_sender) StderrLine: {'line': b'  352 |     struct udev_list_entry *\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K;\n'}
+[1.841532] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.841580] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.841629] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.841675] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.841721] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.841771] (cmd_vel_sender) StderrLine: {'line': b'  393 |     \x1b[01;36m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.841818] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.841864] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::search_usb_port(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.841922] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.842056] (cmd_vel_sender) StderrLine: {'line': b'  457 |     \x1b[01;35m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.842135] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.842331] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:397:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudev\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.842397] (cmd_vel_sender) StderrLine: {'line': b'  397 |     struct udev *\x1b[01;35m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.842449] (cmd_vel_sender) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.842502] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.842555] (cmd_vel_sender) StderrLine: {'line': b'   20 | struct \x1b[01;36m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.842609] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.842661] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.842731] (cmd_vel_sender) StderrLine: {'line': b'  457 |     \x1b[01;36m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.842781] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.842835] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.842886] (cmd_vel_sender) StderrLine: {'line': b'  458 |     \x1b[01;35m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.842934] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.842983] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:398:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenumerate\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.843033] (cmd_vel_sender) StderrLine: {'line': b'  398 |     struct udev_enumerate *\x1b[01;35m\x1b[Kenumerate\x1b[m\x1b[K;\n'}
+[1.843113] (cmd_vel_sender) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.843164] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:126:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_enumerate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.843212] (cmd_vel_sender) StderrLine: {'line': b'  126 | struct \x1b[01;36m\x1b[Kudev_enumerate\x1b[m\x1b[K;\n'}
+[1.843260] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.843308] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.843362] (cmd_vel_sender) StderrLine: {'line': b'  458 |     \x1b[01;36m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.843620] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.843676] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.843730] (cmd_vel_sender) StderrLine: {'line': b'  459 |     \x1b[01;35m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.843779] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.843829] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevices\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.843895] (cmd_vel_sender) StderrLine: {'line': b'  399 |     struct udev_list_entry *\x1b[01;35m\x1b[Kdevices\x1b[m\x1b[K, *entry;\n'}
+[1.843947] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.843998] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.844055] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.844105] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844152] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.844205] (cmd_vel_sender) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.844254] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844303] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.844353] (cmd_vel_sender) StderrLine: {'line': b'  460 |     \x1b[01;35m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.844400] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844447] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.844497] (cmd_vel_sender) StderrLine: {'line': b'  399 |     struct udev_list_entry *devices, *\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K;\n'}
+[1.844546] (cmd_vel_sender) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.844596] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.844645] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.844691] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844749] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.844799] (cmd_vel_sender) StderrLine: {'line': b'  460 |     \x1b[01;36m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.844845] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844892] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Serial::search_device_serial()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.844943] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.845005] (cmd_vel_sender) StderrLine: {'line': b'  328 |     \x1b[01;35m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.845053] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.845106] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:291:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudev\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.845156] (cmd_vel_sender) StderrLine: {'line': b'  291 |     struct udev *\x1b[01;35m\x1b[Kudev\x1b[m\x1b[K = udev_new();\n'}
+[1.845206] (cmd_vel_sender) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.845254] (cmd_vel_sender) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/./serial.hpp:22\x1b[m\x1b[K,\n'}
+[1.845304] (cmd_vel_sender) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:1\x1b[m\x1b[K:\n'}
+[1.845358] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.845411] (cmd_vel_sender) StderrLine: {'line': b'   20 | struct \x1b[01;36m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.845465] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.845515] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.845568] (cmd_vel_sender) StderrLine: {'line': b'  328 |     \x1b[01;36m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.845617] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.845667] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.845720] (cmd_vel_sender) StderrLine: {'line': b'  329 |     \x1b[01;35m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.845795] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.845845] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:298:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenumerate\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.845896] (cmd_vel_sender) StderrLine: {'line': b'  298 |     struct udev_enumerate *\x1b[01;35m\x1b[Kenumerate\x1b[m\x1b[K = udev_enumerate_new(udev);\n'}
+[1.845946] (cmd_vel_sender) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.845998] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:126:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_enumerate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.846047] (cmd_vel_sender) StderrLine: {'line': b'  126 | struct \x1b[01;36m\x1b[Kudev_enumerate\x1b[m\x1b[K;\n'}
+[1.846096] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846146] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.846198] (cmd_vel_sender) StderrLine: {'line': b'  329 |     \x1b[01;36m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.846260] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846308] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.846360] (cmd_vel_sender) StderrLine: {'line': b'  330 |     \x1b[01;35m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.846409] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846457] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:304:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevices\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.846517] (cmd_vel_sender) StderrLine: {'line': b'  304 |     struct udev_list_entry *\x1b[01;35m\x1b[Kdevices\x1b[m\x1b[K = udev_enumerate_get_list_entry(enumerate);\n'}
+[1.846568] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.846616] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.846667] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.846719] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846784] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.846853] (cmd_vel_sender) StderrLine: {'line': b'  330 |     \x1b[01;36m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.846923] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.847011] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.847108] (cmd_vel_sender) StderrLine: {'line': b'  331 |     \x1b[01;35m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.847181] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.847247] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:306:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.847316] (cmd_vel_sender) StderrLine: {'line': b'  306 |     struct udev_list_entry *\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K;\n'}
+[1.847383] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.847451] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.847521] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.847590] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.847659] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.847710] (cmd_vel_sender) StderrLine: {'line': b'  331 |     \x1b[01;36m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.847758] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.847806] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::get_attrs_serial(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.847860] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.847920] (cmd_vel_sender) StderrLine: {'line': b'  390 |     \x1b[01;35m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.847970] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.848020] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:337:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudev\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.848070] (cmd_vel_sender) StderrLine: {'line': b'  337 |     struct udev *\x1b[01;35m\x1b[Kudev\x1b[m\x1b[K = udev_new();\n'}
+[1.848120] (cmd_vel_sender) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.848169] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.848219] (cmd_vel_sender) StderrLine: {'line': b'   20 | struct \x1b[01;36m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.848268] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.848317] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.848367] (cmd_vel_sender) StderrLine: {'line': b'  390 |     \x1b[01;36m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.848416] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.848465] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.848526] (cmd_vel_sender) StderrLine: {'line': b'  391 |     \x1b[01;35m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.848576] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.848624] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:344:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenumerate\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.848680] (cmd_vel_sender) StderrLine: {'line': b'  344 |     struct udev_enumerate *\x1b[01;35m\x1b[Kenumerate\x1b[m\x1b[K = udev_enumerate_new(udev);\n'}
+[1.848729] (cmd_vel_sender) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.848779] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:126:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_enumerate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.848828] (cmd_vel_sender) StderrLine: {'line': b'  126 | struct \x1b[01;36m\x1b[Kudev_enumerate\x1b[m\x1b[K;\n'}
+[1.848877] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.848924] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.848975] (cmd_vel_sender) StderrLine: {'line': b'  391 |     \x1b[01;36m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.849024] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849072] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.849131] (cmd_vel_sender) StderrLine: {'line': b'  392 |     \x1b[01;35m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.849180] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849228] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:350:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevices\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.849277] (cmd_vel_sender) StderrLine: {'line': b'  350 |     struct udev_list_entry *\x1b[01;35m\x1b[Kdevices\x1b[m\x1b[K = udev_enumerate_get_list_entry(enumerate);\n'}
+[1.849330] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.849382] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.849433] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.849482] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849531] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.849596] (cmd_vel_sender) StderrLine: {'line': b'  392 |     \x1b[01;36m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.849646] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849695] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.849765] (cmd_vel_sender) StderrLine: {'line': b'  393 |     \x1b[01;35m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.849828] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849888] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:352:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.849962] (cmd_vel_sender) StderrLine: {'line': b'  352 |     struct udev_list_entry *\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K;\n'}
+[1.850010] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.850058] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.850108] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.850154] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.850202] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.850253] (cmd_vel_sender) StderrLine: {'line': b'  393 |     \x1b[01;36m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.850300] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.850349] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::search_usb_port(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.850435] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.850503] (cmd_vel_sender) StderrLine: {'line': b'  457 |     \x1b[01;35m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.850559] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.850608] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:397:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudev\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.850660] (cmd_vel_sender) StderrLine: {'line': b'  397 |     struct udev *\x1b[01;35m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.850713] (cmd_vel_sender) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.850761] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:20:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.850810] (cmd_vel_sender) StderrLine: {'line': b'   20 | struct \x1b[01;36m\x1b[Kudev\x1b[m\x1b[K;\n'}
+[1.850857] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.850904] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.850984] (cmd_vel_sender) StderrLine: {'line': b'  457 |     \x1b[01;36m\x1b[Kdelete udev\x1b[m\x1b[K;\n'}
+[1.851032] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851118] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.851201] (cmd_vel_sender) StderrLine: {'line': b'  458 |     \x1b[01;35m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.851250] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851295] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:398:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenumerate\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.851343] (cmd_vel_sender) StderrLine: {'line': b'  398 |     struct udev_enumerate *\x1b[01;35m\x1b[Kenumerate\x1b[m\x1b[K;\n'}
+[1.851389] (cmd_vel_sender) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851436] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:126:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_enumerate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.851487] (cmd_vel_sender) StderrLine: {'line': b'  126 | struct \x1b[01;36m\x1b[Kudev_enumerate\x1b[m\x1b[K;\n'}
+[1.851533] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851580] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.851630] (cmd_vel_sender) StderrLine: {'line': b'  458 |     \x1b[01;36m\x1b[Kdelete enumerate\x1b[m\x1b[K;\n'}
+[1.851678] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851725] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.851776] (cmd_vel_sender) StderrLine: {'line': b'  459 |     \x1b[01;35m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.851823] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851871] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevices\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.851919] (cmd_vel_sender) StderrLine: {'line': b'  399 |     struct udev_list_entry *\x1b[01;35m\x1b[Kdevices\x1b[m\x1b[K, *entry;\n'}
+[1.851982] (cmd_vel_sender) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.852031] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.852083] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.852130] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.852176] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.852231] (cmd_vel_sender) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Kdelete devices\x1b[m\x1b[K;\n'}
+[1.852279] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.852325] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossible problem detected in invocation of \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete\x07-Wdelete-incomplete\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.852376] (cmd_vel_sender) StderrLine: {'line': b'  460 |     \x1b[01;35m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.852423] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.852474] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[1.852531] (cmd_vel_sender) StderrLine: {'line': b'  399 |     struct udev_list_entry *devices, *\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K;\n'}
+[1.852582] (cmd_vel_sender) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.852637] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/libudev.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct udev_list_entry\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.852702] (cmd_vel_sender) StderrLine: {'line': b'   38 | struct \x1b[01;36m\x1b[Kudev_list_entry\x1b[m\x1b[K;\n'}
+[1.852768] (cmd_vel_sender) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.852816] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kneither the destructor nor the class-specific \xe2\x80\x98\x1b[01m\x1b[Koperator delete\x1b[m\x1b[K\xe2\x80\x99 will be called, even if they are declared when the class is defined\n'}
+[1.852870] (cmd_vel_sender) StderrLine: {'line': b'  460 |     \x1b[01;36m\x1b[Kdelete entry\x1b[m\x1b[K;\n'}
+[1.852917] (cmd_vel_sender) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904169] (-) TimerEvent: {}
+[1.914288] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::get_attrs_serial(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.914558] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:394:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.914795] (cmd_vel_sender) StderrLine: {'line': b'  394 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.914908] (cmd_vel_sender) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.915014] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::search_usb_port(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.915134] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:461:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.915186] (cmd_vel_sender) StderrLine: {'line': b'  461 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.915233] (cmd_vel_sender) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.921111] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::get_attrs_serial(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.921322] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:394:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.921384] (cmd_vel_sender) StderrLine: {'line': b'  394 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.921447] (cmd_vel_sender) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.921583] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Serial::search_usb_port(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.921644] (cmd_vel_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:461:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.921696] (cmd_vel_sender) StderrLine: {'line': b'  461 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.921746] (cmd_vel_sender) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.004311] (-) TimerEvent: {}
+[2.104663] (-) TimerEvent: {}
+[2.204984] (-) TimerEvent: {}
+[2.305300] (-) TimerEvent: {}
+[2.405650] (-) TimerEvent: {}
+[2.506038] (-) TimerEvent: {}
+[2.606445] (-) TimerEvent: {}
+[2.706820] (-) TimerEvent: {}
+[2.807228] (-) TimerEvent: {}
+[2.907625] (-) TimerEvent: {}
+[3.008052] (-) TimerEvent: {}
+[3.108425] (-) TimerEvent: {}
+[3.208761] (-) TimerEvent: {}
+[3.309154] (-) TimerEvent: {}
+[3.409837] (-) TimerEvent: {}
+[3.510661] (-) TimerEvent: {}
+[3.611088] (-) TimerEvent: {}
+[3.711465] (-) TimerEvent: {}
+[3.811842] (-) TimerEvent: {}
+[3.912242] (-) TimerEvent: {}
+[4.012667] (-) TimerEvent: {}
+[4.113063] (-) TimerEvent: {}
+[4.213448] (-) TimerEvent: {}
+[4.313783] (-) TimerEvent: {}
+[4.414204] (-) TimerEvent: {}
+[4.514616] (-) TimerEvent: {}
+[4.615260] (-) TimerEvent: {}
+[4.715733] (-) TimerEvent: {}
+[4.816119] (-) TimerEvent: {}
+[4.916485] (-) TimerEvent: {}
+[5.016986] (-) TimerEvent: {}
+[5.117426] (-) TimerEvent: {}
+[5.217801] (-) TimerEvent: {}
+[5.318122] (-) TimerEvent: {}
+[5.418466] (-) TimerEvent: {}
+[5.518764] (-) TimerEvent: {}
+[5.519436] (cmd_vel_sender) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_publisher\x1b[0m\n'}
+[5.618893] (-) TimerEvent: {}
+[5.719265] (-) TimerEvent: {}
+[5.756934] (cmd_vel_sender) StdoutLine: {'line': b'[ 83%] Built target cmd_vel_publisher\n'}
+[5.819419] (-) TimerEvent: {}
+[5.919882] (-) TimerEvent: {}
+[6.020323] (-) TimerEvent: {}
+[6.120719] (-) TimerEvent: {}
+[6.221199] (-) TimerEvent: {}
+[6.321652] (-) TimerEvent: {}
+[6.422062] (-) TimerEvent: {}
+[6.522548] (-) TimerEvent: {}
+[6.623008] (-) TimerEvent: {}
+[6.723478] (-) TimerEvent: {}
+[6.823970] (-) TimerEvent: {}
+[6.924434] (-) TimerEvent: {}
+[7.025341] (-) TimerEvent: {}
+[7.125678] (-) TimerEvent: {}
+[7.226142] (-) TimerEvent: {}
+[7.326543] (-) TimerEvent: {}
+[7.426898] (-) TimerEvent: {}
+[7.527470] (-) TimerEvent: {}
+[7.627942] (-) TimerEvent: {}
+[7.728392] (-) TimerEvent: {}
+[7.828954] (-) TimerEvent: {}
+[7.929550] (-) TimerEvent: {}
+[8.029917] (-) TimerEvent: {}
+[8.130232] (-) TimerEvent: {}
+[8.230797] (-) TimerEvent: {}
+[8.331363] (-) TimerEvent: {}
+[8.431730] (-) TimerEvent: {}
+[8.532095] (-) TimerEvent: {}
+[8.632395] (-) TimerEvent: {}
+[8.732695] (-) TimerEvent: {}
+[8.833016] (-) TimerEvent: {}
+[8.933395] (-) TimerEvent: {}
+[9.033783] (-) TimerEvent: {}
+[9.134233] (-) TimerEvent: {}
+[9.174746] (cmd_vel_sender) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_subscribe\x1b[0m\n'}
+[9.234389] (-) TimerEvent: {}
+[9.334761] (-) TimerEvent: {}
+[9.435174] (-) TimerEvent: {}
+[9.535546] (-) TimerEvent: {}
+[9.620028] (cmd_vel_sender) StdoutLine: {'line': b'[100%] Built target cmd_vel_subscribe\n'}
+[9.627559] (cmd_vel_sender) CommandEnded: {'returncode': 0}
+[9.635711] (-) TimerEvent: {}
+[9.663894] (cmd_vel_sender) JobProgress: {'identifier': 'cmd_vel_sender', 'progress': 'install'}
+[9.670848] (cmd_vel_sender) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/rmer/ros2/sentry/build/cmd_vel_sender'], 'cwd': '/home/rmer/ros2/sentry/build/cmd_vel_sender', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1927'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afc13d43177ed36d2a6fd738679708bc'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/1927,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/1927'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75b6c527_ad56_4176_a0c1_da0508217d11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8fe68ad677.sock'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/sentry/build/cmd_vel_sender'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afc13d43177ed36d2a6fd738679708bc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.674512] (cmd_vel_sender) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.674591] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_publisher\n'}
+[9.676045] (cmd_vel_sender) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_publisher" to ""\n'}
+[9.676197] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_subscribe\n'}
+[9.680756] (cmd_vel_sender) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_subscribe" to ""\n'}
+[9.681213] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/package_run_dependencies/cmd_vel_sender\n'}
+[9.681389] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/parent_prefix_path/cmd_vel_sender\n'}
+[9.681446] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/ament_prefix_path.sh\n'}
+[9.681547] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/ament_prefix_path.dsv\n'}
+[9.681682] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/path.sh\n'}
+[9.681769] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/path.dsv\n'}
+[9.681907] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.bash\n'}
+[9.682050] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.sh\n'}
+[9.682192] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.zsh\n'}
+[9.682327] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.dsv\n'}
+[9.682471] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/package.dsv\n'}
+[9.682661] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/packages/cmd_vel_sender\n'}
+[9.682849] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/cmake/cmd_vel_senderConfig.cmake\n'}
+[9.682950] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/cmake/cmd_vel_senderConfig-version.cmake\n'}
+[9.683128] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/package.xml\n'}
+[9.685228] (cmd_vel_sender) CommandEnded: {'returncode': 0}
+[9.730223] (cmd_vel_sender) JobEnded: {'identifier': 'cmd_vel_sender', 'rc': 0}
+[9.731882] (-) EventReactorShutdown: {}

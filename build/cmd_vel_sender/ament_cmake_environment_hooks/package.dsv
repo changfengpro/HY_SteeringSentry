@@ -1,0 +1,4 @@
+source;share/cmd_vel_sender/local_setup.bash
+source;share/cmd_vel_sender/local_setup.dsv
+source;share/cmd_vel_sender/local_setup.sh
+source;share/cmd_vel_sender/local_setup.zsh
