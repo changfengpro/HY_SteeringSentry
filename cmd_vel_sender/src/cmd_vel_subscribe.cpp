@@ -5,7 +5,7 @@
  * @version: 
  * @Date: 2025-01-22 14:07:05
  * @LastEditors:  
- * @LastEditTime: 2025-01-27 12:17:57
+ * @LastEditTime: 2025-01-27 14:54:13
  */
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -19,7 +19,9 @@ class CmdVelSender : public rclcpp::Node
 public:
   CmdVelSender()
   : Node("cmd_vel_sender")
-  {
+  { 
+    // 输出节点启动信息
+    RCLCPP_INFO(this->get_logger(), "CmdVelSender node started");
     // 创建串口对象
     s1.OpenSerial("/dev/ttyCH343USB0", E_BaudRate::_115200, E_DataSize::_8, E_Parity::None, E_StopBit::_1);
 
@@ -27,9 +29,9 @@ public:
     cmd_vel_sub_ = this->create_subscription<Twist>(
       "cmd_vel", 10, std::bind(&CmdVelSender::cmd_vel_callback, this, std::placeholders::_1));
 
-     // 订阅turtle_teleop_key消息
+     // 订阅新的 turtle1/teleop_key 话题，修改为小乌龟相关的控制话题
     turtle_teleop_key_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
-      "turtle_teleop_key", 10, std::bind(&CmdVelSender::turtle_teleop_key_callback, this, std::placeholders::_1));
+      "turtle1/cmd_vel", 10, std::bind(&CmdVelSender::turtle_teleop_key_callback, this, std::placeholders::_1));
   }
 
 private:
@@ -42,6 +44,8 @@ private:
   // 处理cmd_vel消息的回调函数
   void cmd_vel_callback(const Twist::SharedPtr msg)
   {
+    // 输出接收到的消息
+    RCLCPP_INFO(this->get_logger(), "Received cmd_vel: Linear X: %f, Angular Z: %f", msg->linear.x, msg->angular.z);
     // 获取消息中的线速度和角速度
     float linear_x = msg->linear.x;
     float angular_z = msg->angular.z;
@@ -56,6 +60,7 @@ private:
   // turtle_teleop_key 回调函数
   void turtle_teleop_key_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
   {
+    // 输出接收到的小乌龟控制信息
     RCLCPP_INFO(this->get_logger(), "Received turtle_teleop_key: Linear x: %f, Angular z: %f", msg->linear.x, msg->angular.z);
     // 处理来自 turtle_teleop_key 的消息（例如发送到串口）
   }
