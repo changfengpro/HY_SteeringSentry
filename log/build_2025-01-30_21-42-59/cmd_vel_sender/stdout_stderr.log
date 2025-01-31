@@ -1,0 +1,9 @@
+[ 50%] Built target cmd_vel_publisher
+[ 66%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o[0m
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:[m[K In member function ‘[01m[Kvoid CmdVelSender::cmd_vel_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_data[m[K’ was not declared in this scope
+   57 |     s1.Send([01;31m[Kserial_data[m[K.data(), serial_data.size());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cmd_vel_subscribe.dir/build.make:93：CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:185：CMakeFiles/cmd_vel_subscribe.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

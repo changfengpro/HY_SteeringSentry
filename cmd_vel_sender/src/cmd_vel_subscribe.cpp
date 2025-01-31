@@ -5,7 +5,7 @@
  * @version: 
  * @Date: 2025-01-22 14:07:05
  * @LastEditors:  
- * @LastEditTime: 2025-01-27 14:54:13
+ * @LastEditTime: 2025-01-30 21:42:58
  */
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -47,14 +47,14 @@ private:
     // 输出接收到的消息
     RCLCPP_INFO(this->get_logger(), "Received cmd_vel: Linear X: %f, Angular Z: %f", msg->linear.x, msg->angular.z);
     // 获取消息中的线速度和角速度
-    float linear_x = msg->linear.x;
-    float angular_z = msg->angular.z;
+    // float linear_x = msg->linear.x;
+    // float angular_z = msg->angular.z;
 
     // 创建数据，将线速度和角速度转换为字符串或其他适合的格式
-    std::string serial_data = "Linear X: " + std::to_string(linear_x) + ", Angular Z: " + std::to_string(angular_z);
+    // std::string serial_data = "Linear X: " + std::to_string(linear_x) + ", Angular Z: " + std::to_string(angular_z);
 
     // 发送数据
-    s1.Send(serial_data.data(), serial_data.size());
+    // s1.Send(serial_data.data(), serial_data.size());
   }
 
   // turtle_teleop_key 回调函数
@@ -62,6 +62,15 @@ private:
   {
     // 输出接收到的小乌龟控制信息
     RCLCPP_INFO(this->get_logger(), "Received turtle_teleop_key: Linear x: %f, Angular z: %f", msg->linear.x, msg->angular.z);
+ // 获取消息中的线速度和角速度
+    float linear_x = msg->linear.x;
+    float angular_z = msg->angular.z;
+
+    // 创建数据，将线速度和角速度转换为字符串或其他适合的格式
+    std::string serial_data = "Linear X: " + std::to_string(linear_x) + ", Angular Z: " + std::to_string(angular_z);
+    // 发送数据
+    s1.Send(serial_data.data(), serial_data.size());
+
     // 处理来自 turtle_teleop_key 的消息（例如发送到串口）
   }
 

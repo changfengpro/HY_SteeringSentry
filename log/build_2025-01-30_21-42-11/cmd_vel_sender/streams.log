@@ -1,0 +1,18 @@
+[0.016s] Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+[0.069s] [ 50%] Built target cmd_vel_publisher
+[0.080s] [ 66%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o[0m
+[3.167s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:[m[K In member function ‘[01m[Kvoid CmdVelSender::cmd_vel_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.167s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_data[m[K’ was not declared in this scope
+[3.167s]    57 |     s1.Send([01;31m[Kserial_data[m[K.data(), serial_data.size());
+[3.167s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.178s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:[m[K In member function ‘[01m[Kvoid CmdVelSender::turtle_teleop_key_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.179s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:67:61:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_x[m[K’ was not declared in this scope
+[3.179s]    67 |     std::string serial_data = "Linear X: " + std::to_string([01;31m[Klinear_x[m[K) + ", Angular Z: " + std::to_string(angular_z);
+[3.179s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[3.186s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:67:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_z[m[K’ was not declared in this scope
+[3.187s]    67 |     std::string serial_data = "Linear X: " + std::to_string(linear_x) + ", Angular Z: " + std::to_string([01;31m[Kangular_z[m[K);
+[3.187s]       |                                                                                                          [01;31m[K^~~~~~~~~[m[K
+[6.319s] gmake[2]: *** [CMakeFiles/cmd_vel_subscribe.dir/build.make:93：CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o] 错误 1
+[6.319s] gmake[1]: *** [CMakeFiles/Makefile2:185：CMakeFiles/cmd_vel_subscribe.dir/all] 错误 2
+[6.320s] gmake: *** [Makefile:146：all] 错误 2
+[6.324s] Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
