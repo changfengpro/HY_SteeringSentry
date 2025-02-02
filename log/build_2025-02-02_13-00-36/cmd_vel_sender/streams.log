@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+[0.053s] [ 50%] Built target cmd_vel_publisher
+[0.062s] [ 66%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o[0m
+[2.289s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:[m[K In member function ‘[01m[Kvoid CmdVelSender::turtle_teleop_key_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.289s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_data[m[K’ was not declared in this scope
+[2.289s]   105 |     s1.Send([01;31m[Kserial_data[m[K.data(), serial_data.size());
+[2.289s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.760s] gmake[2]: *** [CMakeFiles/cmd_vel_subscribe.dir/build.make:93：CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o] 错误 1
+[4.761s] gmake[1]: *** [CMakeFiles/Makefile2:185：CMakeFiles/cmd_vel_subscribe.dir/all] 错误 2
+[4.761s] gmake: *** [Makefile:146：all] 错误 2
+[4.764s] Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
