@@ -1,0 +1,16 @@
+[0.017s] Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+[0.078s] [ 50%] Built target cmd_vel_publisher
+[0.095s] [ 66%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o[0m
+[3.053s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:92:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.053s]    92 | }
+[3.053s]       |  [01;31m[K^[m[K
+[3.053s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.053s]    15 | [01;36m[K{[m[K
+[3.054s]       | [01;36m[K^[m[K
+[3.074s] [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:92:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.075s]    92 | }
+[3.075s]       |  [01;31m[K^[m[K
+[5.922s] gmake[2]: *** [CMakeFiles/cmd_vel_subscribe.dir/build.make:93：CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o] 错误 1
+[5.923s] gmake[1]: *** [CMakeFiles/Makefile2:185：CMakeFiles/cmd_vel_subscribe.dir/all] 错误 2
+[5.923s] gmake: *** [Makefile:146：all] 错误 2
+[5.926s] Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16

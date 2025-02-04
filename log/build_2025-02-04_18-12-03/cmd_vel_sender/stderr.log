@@ -1,0 +1,7 @@
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:85:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   85 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/cmd_vel_subscribe.dir/build.make:93：CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:185：CMakeFiles/cmd_vel_subscribe.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
