@@ -2,7 +2,7 @@
  * @Description: 订阅 cmd_vel 并通过串口发送
  * @Author: changfeng
  * @Date: 2025-01-22 14:07:05
- * @LastEditTime: 2025-02-04 19:01:39
+ * @LastEditTime: 2025-02-05 15:15:13
  */
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -24,7 +24,7 @@ public:
 
     // 订阅 cmd_vel
     cmd_vel_sub_ = this->create_subscription<Twist>(
-      "cmd_vel", 10, std::bind(&CmdVelSender::cmd_vel_callback, this, std::placeholders::_1));
+      "red_standard_robot1/cmd_vel", 10, std::bind(&CmdVelSender::cmd_vel_callback, this, std::placeholders::_1));
 
     // 订阅 turtle1/cmd_vel
     turtle_teleop_key_sub_ = this->create_subscription<Twist>(
