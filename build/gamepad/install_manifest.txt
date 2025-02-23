@@ -1,0 +1,17 @@
+/home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_test_node
+/home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.sh
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.dsv
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.bash
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.sh
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.zsh
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.dsv
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.dsv
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/packages/gamepad
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake
+/home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.xml

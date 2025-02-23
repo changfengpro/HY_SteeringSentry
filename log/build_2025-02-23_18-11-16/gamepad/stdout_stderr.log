@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/gamepad_cmd_vel.dir/src/gamepad_cmd_vel.cpp.o[0m
+[ 66%] Built target gamepad_test_node
+[ 83%] [32m[1mLinking CXX executable gamepad_cmd_vel[0m
+[100%] Built target gamepad_cmd_vel
+-- Install configuration: ""
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_test_node
+-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel
+-- Set non-toolchain portion of runtime path of "/home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel" to ""
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.sh
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.dsv
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.bash
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.sh
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.zsh
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.dsv
+-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.dsv
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/packages/gamepad
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake
+-- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.xml

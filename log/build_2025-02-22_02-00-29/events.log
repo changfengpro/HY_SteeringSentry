@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (gamepad) JobQueued: {'identifier': 'gamepad', 'dependencies': OrderedDict()}
+[0.000370] (gamepad) JobStarted: {'identifier': 'gamepad'}
+[0.008245] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'cmake'}
+[0.008884] (gamepad) Command: {'cmd': ['/usr/local/bin/cmake', '/home/rmer/ros2/ros2-gamepad', '-DCMAKE_INSTALL_PREFIX=/home/rmer/ros2/ros2-gamepad/install/gamepad'], 'cwd': '/home/rmer/ros2/ros2-gamepad/build/gamepad', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '313590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/rmer/ros2/ros2-gamepad/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/313590,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/313590'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a32dedc_8535_4870_8f5e_71660b0f2dac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/ros2-gamepad/build/gamepad'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018181] (gamepad) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.018548] (gamepad) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.018748] (gamepad) StderrLine: {'line': b'  CMake.\n'}
+[0.018905] (gamepad) StderrLine: {'line': b'\n'}
+[0.019048] (gamepad) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.019192] (gamepad) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.019333] (gamepad) StderrLine: {'line': b'\n'}
+[0.019473] (gamepad) StderrLine: {'line': b'\x1b[0m\n'}
+[0.093210] (gamepad) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099301] (-) TimerEvent: {}
+[0.154880] (gamepad) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.165833] (gamepad) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199454] (-) TimerEvent: {}
+[0.246394] (gamepad) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.261942] (gamepad) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.264889] (gamepad) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.265450] (gamepad) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.280361] (gamepad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299581] (-) TimerEvent: {}
+[0.367559] (gamepad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.383334] (gamepad) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.383715] (gamepad) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.384209] (gamepad) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399706] (gamepad) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400059] (-) TimerEvent: {}
+[0.500436] (-) TimerEvent: {}
+[0.516449] (gamepad) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.600619] (-) TimerEvent: {}
+[0.610050] (gamepad) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.656511] (gamepad) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.661892] (gamepad) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.671811] (gamepad) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.686076] (gamepad) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700765] (-) TimerEvent: {}
+[0.703817] (gamepad) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.755588] (gamepad) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.758350] (gamepad) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800929] (-) TimerEvent: {}
+[0.871998] (gamepad) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.901213] (-) TimerEvent: {}
+[0.902352] (gamepad) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.947466] (gamepad) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.957202] (gamepad) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001393] (-) TimerEvent: {}
+[1.040162] (gamepad) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.041176] (gamepad) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.101543] (-) TimerEvent: {}
+[1.110758] (gamepad) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.128907] (gamepad) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201666] (-) TimerEvent: {}
+[1.212440] (gamepad) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.212685] (gamepad) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rmer/ros2/ros2-gamepad/include\n'}
+[1.212803] (gamepad) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.214101] (gamepad) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.216681] (gamepad) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.218309] (gamepad) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.227262] (gamepad) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.227375] (gamepad) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.228952] (gamepad) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.230125] (gamepad) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.244832] (gamepad) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.247667] (gamepad) StdoutLine: {'line': b'-- Build files have been written to: /home/rmer/ros2/ros2-gamepad/build/gamepad\n'}
+[1.258255] (gamepad) CommandEnded: {'returncode': 0}
+[1.259360] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'build'}
+[1.260421] (gamepad) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/rmer/ros2/ros2-gamepad/build/gamepad', '--', '-j16', '-l16'], 'cwd': '/home/rmer/ros2/ros2-gamepad/build/gamepad', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '313590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/rmer/ros2/ros2-gamepad/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/313590,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/313590'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a32dedc_8535_4870_8f5e_71660b0f2dac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/ros2-gamepad/build/gamepad'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.291928] (gamepad) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gamepad_cmd_vel.dir/src/gamepad_cmd_vel.cpp.o\x1b[0m\n'}
+[1.292674] (gamepad) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gamepad_cmd_vel.dir/src/gamepad.cpp.o\x1b[0m\n'}
+[1.292825] (gamepad) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gamepad_test_node.dir/src/gamepad.cpp.o\x1b[0m\n'}
+[1.292975] (gamepad) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gamepad_test_node.dir/src/gamepad_test_node.cpp.o\x1b[0m\n'}
+[1.301797] (-) TimerEvent: {}
+[1.402171] (-) TimerEvent: {}
+[1.502589] (-) TimerEvent: {}
+[1.603012] (-) TimerEvent: {}
+[1.703414] (-) TimerEvent: {}
+[1.803849] (-) TimerEvent: {}
+[1.904255] (-) TimerEvent: {}
+[2.004670] (-) TimerEvent: {}
+[2.105087] (-) TimerEvent: {}
+[2.205498] (-) TimerEvent: {}
+[2.306137] (-) TimerEvent: {}
+[2.406714] (-) TimerEvent: {}
+[2.507105] (-) TimerEvent: {}
+[2.607488] (-) TimerEvent: {}
+[2.707882] (-) TimerEvent: {}
+[2.808514] (-) TimerEvent: {}
+[2.908914] (-) TimerEvent: {}
+[3.009268] (-) TimerEvent: {}
+[3.109596] (-) TimerEvent: {}
+[3.210030] (-) TimerEvent: {}
+[3.310533] (-) TimerEvent: {}
+[3.410944] (-) TimerEvent: {}
+[3.511306] (-) TimerEvent: {}
+[3.611667] (-) TimerEvent: {}
+[3.712007] (-) TimerEvent: {}
+[3.812368] (-) TimerEvent: {}
+[3.912675] (-) TimerEvent: {}
+[3.949486] (gamepad) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable gamepad_test_node\x1b[0m\n'}
+[4.012852] (-) TimerEvent: {}
+[4.080831] (gamepad) StdoutLine: {'line': b'[ 83%] Built target gamepad_test_node\n'}
+[4.113014] (-) TimerEvent: {}
+[4.213571] (-) TimerEvent: {}
+[4.314045] (-) TimerEvent: {}
+[4.414498] (-) TimerEvent: {}
+[4.514931] (-) TimerEvent: {}
+[4.615405] (-) TimerEvent: {}
+[4.715801] (-) TimerEvent: {}
+[4.816119] (-) TimerEvent: {}
+[4.916495] (-) TimerEvent: {}
+[5.016843] (-) TimerEvent: {}
+[5.117145] (-) TimerEvent: {}
+[5.217541] (-) TimerEvent: {}
+[5.236947] (gamepad) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gamepad_cmd_vel\x1b[0m\n'}
+[5.317667] (-) TimerEvent: {}
+[5.418033] (-) TimerEvent: {}
+[5.434431] (gamepad) StdoutLine: {'line': b'[100%] Built target gamepad_cmd_vel\n'}
+[5.443725] (gamepad) CommandEnded: {'returncode': 0}
+[5.444315] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'install'}
+[5.450644] (gamepad) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/rmer/ros2/ros2-gamepad/build/gamepad'], 'cwd': '/home/rmer/ros2/ros2-gamepad/build/gamepad', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '313590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/rmer/ros2/ros2-gamepad/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/313590,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/313590'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a32dedc_8535_4870_8f5e_71660b0f2dac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/ros2-gamepad/build/gamepad'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.454056] (gamepad) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.454263] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_test_node\n'}
+[5.455094] (gamepad) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_test_node" to ""\n'}
+[5.455349] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel\n'}
+[5.456857] (gamepad) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel" to ""\n'}
+[5.457029] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad\n'}
+[5.457244] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad\n'}
+[5.457509] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh\n'}
+[5.457789] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv\n'}
+[5.457946] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.sh\n'}
+[5.458084] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.dsv\n'}
+[5.458196] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.bash\n'}
+[5.458270] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.sh\n'}
+[5.458339] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.zsh\n'}
+[5.458389] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.dsv\n'}
+[5.458469] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.dsv\n'}
+[5.458779] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/packages/gamepad\n'}
+[5.458923] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake\n'}
+[5.459058] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake\n'}
+[5.459135] (gamepad) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.xml\n'}
+[5.460911] (gamepad) CommandEnded: {'returncode': 0}
+[5.474242] (gamepad) JobEnded: {'identifier': 'gamepad', 'rc': 0}
+[5.475524] (-) EventReactorShutdown: {}

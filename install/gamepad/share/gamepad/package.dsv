@@ -1,0 +1,8 @@
+source;share/gamepad/hook/cmake_prefix_path.ps1
+source;share/gamepad/hook/cmake_prefix_path.dsv
+source;share/gamepad/hook/cmake_prefix_path.sh
+source;share/gamepad/local_setup.bash
+source;share/gamepad/local_setup.dsv
+source;share/gamepad/local_setup.ps1
+source;share/gamepad/local_setup.sh
+source;share/gamepad/local_setup.zsh

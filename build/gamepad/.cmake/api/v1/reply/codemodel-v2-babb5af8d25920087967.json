@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-366e4d15336642484e45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gamepad",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gamepad_cmd_vel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gamepad_cmd_vel-f28cd9a9c4d7da253467.json",
+					"name" : "gamepad_cmd_vel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gamepad_test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gamepad_test_node-3f8af624505433538cc0.json",
+					"name" : "gamepad_test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gamepad_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gamepad_uninstall-6b0b82f3e506e48bcd5f.json",
+					"name" : "gamepad_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-427643e550a042e1e199.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rmer/ros2/ros2-gamepad/build/gamepad",
+		"source" : "/home/rmer/ros2/ros2-gamepad"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

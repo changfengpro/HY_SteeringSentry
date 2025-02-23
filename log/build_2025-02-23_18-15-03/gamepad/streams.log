@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/rmer/ros2/ros2-gamepad/build/gamepad': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/ros2-gamepad/build/gamepad -- -j16 -l16
+[0.049s] [ 50%] Built target gamepad_test_node
+[0.059s] [ 66%] [32mBuilding CXX object CMakeFiles/gamepad_cmd_vel.dir/src/gamepad_cmd_vel.cpp.o[0m
+[4.222s] [ 83%] [32m[1mLinking CXX executable gamepad_cmd_vel[0m
+[4.421s] [100%] Built target gamepad_cmd_vel
+[4.431s] Invoked command in '/home/rmer/ros2/ros2-gamepad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/ros2-gamepad/build/gamepad -- -j16 -l16
+[4.438s] Invoking command in '/home/rmer/ros2/ros2-gamepad/build/gamepad': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/ros2-gamepad/build/gamepad
+[4.442s] -- Install configuration: ""
+[4.442s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_test_node
+[4.442s] -- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel
+[4.445s] -- Set non-toolchain portion of runtime path of "/home/rmer/ros2/ros2-gamepad/install/gamepad/lib/gamepad/gamepad_cmd_vel" to ""
+[4.445s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad
+[4.445s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad
+[4.445s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh
+[4.445s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv
+[4.445s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.sh
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/environment/path.dsv
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.bash
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.sh
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.zsh
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/local_setup.dsv
+[4.446s] -- Installing: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.dsv
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/ament_index/resource_index/packages/gamepad
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake
+[4.446s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake
+[4.447s] -- Up-to-date: /home/rmer/ros2/ros2-gamepad/install/gamepad/share/gamepad/package.xml
+[4.448s] Invoked command in '/home/rmer/ros2/ros2-gamepad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/ros2-gamepad/build/gamepad

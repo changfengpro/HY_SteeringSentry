@@ -1,0 +1,6 @@
+Invoking command in '/home/rmer/ros2/ros2-gamepad/build/gamepad': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmer/ros2/ros2-gamepad -DCMAKE_INSTALL_PREFIX=/home/rmer/ros2/ros2-gamepad/install/gamepad
+Invoked command in '/home/rmer/ros2/ros2-gamepad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmer/ros2/ros2-gamepad -DCMAKE_INSTALL_PREFIX=/home/rmer/ros2/ros2-gamepad/install/gamepad
+Invoking command in '/home/rmer/ros2/ros2-gamepad/build/gamepad': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/ros2-gamepad/build/gamepad -- -j16 -l16
+Invoked command in '/home/rmer/ros2/ros2-gamepad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/ros2-gamepad/build/gamepad -- -j16 -l16
+Invoking command in '/home/rmer/ros2/ros2-gamepad/build/gamepad': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/ros2-gamepad/build/gamepad
+Invoked command in '/home/rmer/ros2/ros2-gamepad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/ros2-gamepad/build/gamepad
