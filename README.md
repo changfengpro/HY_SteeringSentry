@@ -1,6 +1,9 @@
+***原作者***
+https://github.com/Albusgive/ros2-gamepad
+
 ## 安装编译环境.
 `cd ros2_gamepad`  
-`sduo sh makepre.sh`  
+`sudo sh makepre.sh`  
 ## 回到工作空间.
 `colcon build --packages-select ros2_gamepad`   
 `source install/setup.bash` 
