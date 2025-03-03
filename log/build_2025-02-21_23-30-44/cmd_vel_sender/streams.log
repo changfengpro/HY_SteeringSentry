@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+[0.071s] [ 50%] Built target cmd_vel_publisher
+[0.086s] [ 66%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o[0m
+[8.977s] [ 83%] [32m[1mLinking CXX executable cmd_vel_subscribe[0m
+[9.453s] [100%] Built target cmd_vel_subscribe
+[9.461s] Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+[9.505s] Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/sentry/build/cmd_vel_sender
+[9.508s] -- Install configuration: ""
+[9.509s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_publisher
+[9.509s] -- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_subscribe
+[9.515s] -- Set non-toolchain portion of runtime path of "/home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_subscribe" to ""
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/package_run_dependencies/cmd_vel_sender
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/parent_prefix_path/cmd_vel_sender
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/ament_prefix_path.sh
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/ament_prefix_path.dsv
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/path.sh
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/path.dsv
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.bash
+[9.516s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.sh
+[9.517s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.zsh
+[9.517s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.dsv
+[9.517s] -- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/package.dsv
+[9.517s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/packages/cmd_vel_sender
+[9.517s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/cmake/cmd_vel_senderConfig.cmake
+[9.517s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/cmake/cmd_vel_senderConfig-version.cmake
+[9.517s] -- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/package.xml
+[9.518s] Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/sentry/build/cmd_vel_sender

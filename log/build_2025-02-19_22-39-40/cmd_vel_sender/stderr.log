@@ -1,0 +1,321 @@
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial::search_device_serial()[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  328 |     [01;35m[Kdelete udev[m[K;
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:291:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kudev[m[K’ has incomplete type
+  291 |     struct udev *[01;35m[Kudev[m[K = udev_new();
+      |                  [01;35m[K^~~~[m[K
+In file included from [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/./serial.hpp:22[m[K,
+                 from [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:1[m[K:
+[01m[K/usr/include/libudev.h:20:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev[m[K’
+   20 | struct [01;36m[Kudev[m[K;
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  328 |     [01;36m[Kdelete udev[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  329 |     [01;35m[Kdelete enumerate[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:298:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenumerate[m[K’ has incomplete type
+  298 |     struct udev_enumerate *[01;35m[Kenumerate[m[K = udev_enumerate_new(udev);
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/usr/include/libudev.h:126:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_enumerate[m[K’
+  126 | struct [01;36m[Kudev_enumerate[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  329 |     [01;36m[Kdelete enumerate[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  330 |     [01;35m[Kdelete devices[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:304:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdevices[m[K’ has incomplete type
+  304 |     struct udev_list_entry *[01;35m[Kdevices[m[K = udev_enumerate_get_list_entry(enumerate);
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  330 |     [01;36m[Kdelete devices[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  331 |     [01;35m[Kdelete entry[m[K;
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:306:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kentry[m[K’ has incomplete type
+  306 |     struct udev_list_entry *[01;35m[Kentry[m[K;
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  331 |     [01;36m[Kdelete entry[m[K;
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::get_attrs_serial(const std::string&)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  390 |     [01;35m[Kdelete udev[m[K;
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:337:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kudev[m[K’ has incomplete type
+  337 |     struct udev *[01;35m[Kudev[m[K = udev_new();
+      |                  [01;35m[K^~~~[m[K
+[01m[K/usr/include/libudev.h:20:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev[m[K’
+   20 | struct [01;36m[Kudev[m[K;
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  390 |     [01;36m[Kdelete udev[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  391 |     [01;35m[Kdelete enumerate[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:344:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenumerate[m[K’ has incomplete type
+  344 |     struct udev_enumerate *[01;35m[Kenumerate[m[K = udev_enumerate_new(udev);
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/usr/include/libudev.h:126:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_enumerate[m[K’
+  126 | struct [01;36m[Kudev_enumerate[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  391 |     [01;36m[Kdelete enumerate[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  392 |     [01;35m[Kdelete devices[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:350:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdevices[m[K’ has incomplete type
+  350 |     struct udev_list_entry *[01;35m[Kdevices[m[K = udev_enumerate_get_list_entry(enumerate);
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  392 |     [01;36m[Kdelete devices[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  393 |     [01;35m[Kdelete entry[m[K;
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:352:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kentry[m[K’ has incomplete type
+  352 |     struct udev_list_entry *[01;35m[Kentry[m[K;
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  393 |     [01;36m[Kdelete entry[m[K;
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::search_usb_port(std::string)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  457 |     [01;35m[Kdelete udev[m[K;
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:397:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kudev[m[K’ has incomplete type
+  397 |     struct udev *[01;35m[Kudev[m[K;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/usr/include/libudev.h:20:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev[m[K’
+   20 | struct [01;36m[Kudev[m[K;
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  457 |     [01;36m[Kdelete udev[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  458 |     [01;35m[Kdelete enumerate[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:398:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenumerate[m[K’ has incomplete type
+  398 |     struct udev_enumerate *[01;35m[Kenumerate[m[K;
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/usr/include/libudev.h:126:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_enumerate[m[K’
+  126 | struct [01;36m[Kudev_enumerate[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  458 |     [01;36m[Kdelete enumerate[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  459 |     [01;35m[Kdelete devices[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdevices[m[K’ has incomplete type
+  399 |     struct udev_list_entry *[01;35m[Kdevices[m[K, *entry;
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  459 |     [01;36m[Kdelete devices[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  460 |     [01;35m[Kdelete entry[m[K;
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kentry[m[K’ has incomplete type
+  399 |     struct udev_list_entry *devices, *[01;35m[Kentry[m[K;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  460 |     [01;36m[Kdelete entry[m[K;
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial::search_device_serial()[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  328 |     [01;35m[Kdelete udev[m[K;
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:291:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kudev[m[K’ has incomplete type
+  291 |     struct udev *[01;35m[Kudev[m[K = udev_new();
+      |                  [01;35m[K^~~~[m[K
+In file included from [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/./serial.hpp:22[m[K,
+                 from [01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:1[m[K:
+[01m[K/usr/include/libudev.h:20:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev[m[K’
+   20 | struct [01;36m[Kudev[m[K;
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:328:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  328 |     [01;36m[Kdelete udev[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  329 |     [01;35m[Kdelete enumerate[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:298:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenumerate[m[K’ has incomplete type
+  298 |     struct udev_enumerate *[01;35m[Kenumerate[m[K = udev_enumerate_new(udev);
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/usr/include/libudev.h:126:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_enumerate[m[K’
+  126 | struct [01;36m[Kudev_enumerate[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:329:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  329 |     [01;36m[Kdelete enumerate[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  330 |     [01;35m[Kdelete devices[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:304:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdevices[m[K’ has incomplete type
+  304 |     struct udev_list_entry *[01;35m[Kdevices[m[K = udev_enumerate_get_list_entry(enumerate);
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:330:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  330 |     [01;36m[Kdelete devices[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  331 |     [01;35m[Kdelete entry[m[K;
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:306:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kentry[m[K’ has incomplete type
+  306 |     struct udev_list_entry *[01;35m[Kentry[m[K;
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:331:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  331 |     [01;36m[Kdelete entry[m[K;
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::get_attrs_serial(const std::string&)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  390 |     [01;35m[Kdelete udev[m[K;
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:337:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kudev[m[K’ has incomplete type
+  337 |     struct udev *[01;35m[Kudev[m[K = udev_new();
+      |                  [01;35m[K^~~~[m[K
+[01m[K/usr/include/libudev.h:20:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev[m[K’
+   20 | struct [01;36m[Kudev[m[K;
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:390:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  390 |     [01;36m[Kdelete udev[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  391 |     [01;35m[Kdelete enumerate[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:344:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenumerate[m[K’ has incomplete type
+  344 |     struct udev_enumerate *[01;35m[Kenumerate[m[K = udev_enumerate_new(udev);
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/usr/include/libudev.h:126:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_enumerate[m[K’
+  126 | struct [01;36m[Kudev_enumerate[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:391:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  391 |     [01;36m[Kdelete enumerate[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  392 |     [01;35m[Kdelete devices[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:350:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdevices[m[K’ has incomplete type
+  350 |     struct udev_list_entry *[01;35m[Kdevices[m[K = udev_enumerate_get_list_entry(enumerate);
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:392:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  392 |     [01;36m[Kdelete devices[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  393 |     [01;35m[Kdelete entry[m[K;
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:352:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kentry[m[K’ has incomplete type
+  352 |     struct udev_list_entry *[01;35m[Kentry[m[K;
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:393:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  393 |     [01;36m[Kdelete entry[m[K;
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::search_usb_port(std::string)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  457 |     [01;35m[Kdelete udev[m[K;
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:397:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kudev[m[K’ has incomplete type
+  397 |     struct udev *[01;35m[Kudev[m[K;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/usr/include/libudev.h:20:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev[m[K’
+   20 | struct [01;36m[Kudev[m[K;
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:457:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  457 |     [01;36m[Kdelete udev[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  458 |     [01;35m[Kdelete enumerate[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:398:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenumerate[m[K’ has incomplete type
+  398 |     struct udev_enumerate *[01;35m[Kenumerate[m[K;
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/usr/include/libudev.h:126:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_enumerate[m[K’
+  126 | struct [01;36m[Kudev_enumerate[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:458:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  458 |     [01;36m[Kdelete enumerate[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  459 |     [01;35m[Kdelete devices[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdevices[m[K’ has incomplete type
+  399 |     struct udev_list_entry *[01;35m[Kdevices[m[K, *entry;
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:459:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  459 |     [01;36m[Kdelete devices[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+  460 |     [01;35m[Kdelete entry[m[K;
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:399:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kentry[m[K’ has incomplete type
+  399 |     struct udev_list_entry *devices, *[01;35m[Kentry[m[K;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/usr/include/libudev.h:38:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct udev_list_entry[m[K’
+   38 | struct [01;36m[Kudev_list_entry[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:460:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+  460 |     [01;36m[Kdelete entry[m[K;
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::get_attrs_serial(const std::string&)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:394:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  394 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::search_usb_port(std::string)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:461:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  461 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::get_attrs_serial(const std::string&)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:394:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  394 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:[m[K In member function ‘[01m[Kstd::string Serial::search_usb_port(std::string)[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/include/cmd_vel_sender/serial.cpp:461:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  461 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:[m[K In constructor ‘[01m[KCmdVelSender::CmdVelSender()[m[K’:
+[01m[K/home/rmer/ros2/sentry/cmd_vel_sender/src/cmd_vel_subscribe.cpp:23:52:[m[K [01;31m[Kerror: [m[K‘[01m[K_921600[m[K’ is not a member of ‘[01m[KE_BaudRate[m[K’
+   23 |     s1.OpenSerial("/dev/ttyCH343USB0", E_BaudRate::[01;31m[K_921600[m[K, E_DataSize::_8, E_Parity::None, E_StopBit::_1);
+      |                                                    [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cmd_vel_subscribe.dir/build.make:93：CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:185：CMakeFiles/cmd_vel_subscribe.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

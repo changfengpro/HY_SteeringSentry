@@ -1,0 +1,6 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/include/cmd_vel_sender/serial.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/include/cmd_vel_sender/serial.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[ 83%] Built target cmd_vel_publisher

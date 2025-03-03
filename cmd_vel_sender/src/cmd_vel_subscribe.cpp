@@ -2,7 +2,7 @@
  * @Description: 订阅 cmd_vel 并通过串口发送
  * @Author: changfeng
  * @Date: 2025-01-22 14:07:05
- * @LastEditTime: 2025-02-05 15:15:13
+ * @LastEditTime: 2025-02-23 16:12:31
  */
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -89,6 +89,7 @@ private:
         oss << std::hex << std::uppercase << (int)data_packet[i] << " ";
     }
     RCLCPP_INFO(this->get_logger(), "%s", oss.str().c_str());
+    RCLCPP_INFO(this->get_logger(), "linear.x: %f, linear.y: %f, linear.z: %f, angular.x: %f, angular.y: %f, angular.z: %f", linear_x, linear_y, linear_z, angular_x, angular_y, angular_z);
   }
 };
 

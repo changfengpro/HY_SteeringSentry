@@ -1,0 +1,4 @@
+Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmer/ros2/sentry/build/cmd_vel_sender -- -j16 -l16
+Invoking command in '/home/rmer/ros2/sentry/build/cmd_vel_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/sentry/build/cmd_vel_sender
+Invoked command in '/home/rmer/ros2/sentry/build/cmd_vel_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmer/ros2/sentry/build/cmd_vel_sender

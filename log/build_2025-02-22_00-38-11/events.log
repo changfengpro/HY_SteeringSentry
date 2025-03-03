@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (cmd_vel_sender) JobQueued: {'identifier': 'cmd_vel_sender', 'dependencies': OrderedDict()}
+[0.000245] (cmd_vel_sender) JobStarted: {'identifier': 'cmd_vel_sender'}
+[0.007652] (cmd_vel_sender) JobProgress: {'identifier': 'cmd_vel_sender', 'progress': 'cmake'}
+[0.008201] (cmd_vel_sender) JobProgress: {'identifier': 'cmd_vel_sender', 'progress': 'build'}
+[0.009001] (cmd_vel_sender) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/rmer/ros2/sentry/build/cmd_vel_sender', '--', '-j16', '-l16'], 'cwd': '/home/rmer/ros2/sentry/build/cmd_vel_sender', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '313590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/313590,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/313590'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b05a77cd_f748_41ce_9f2d_3a1ff0eebdc6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8fe68ad677.sock'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/sentry/build/cmd_vel_sender'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.050860] (cmd_vel_sender) StdoutLine: {'line': b'[ 50%] Built target cmd_vel_publisher\n'}
+[0.062671] (cmd_vel_sender) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_subscribe.dir/src/cmd_vel_subscribe.cpp.o\x1b[0m\n'}
+[0.099168] (-) TimerEvent: {}
+[0.199587] (-) TimerEvent: {}
+[0.299932] (-) TimerEvent: {}
+[0.400335] (-) TimerEvent: {}
+[0.500770] (-) TimerEvent: {}
+[0.601161] (-) TimerEvent: {}
+[0.701568] (-) TimerEvent: {}
+[0.801951] (-) TimerEvent: {}
+[0.902349] (-) TimerEvent: {}
+[1.002756] (-) TimerEvent: {}
+[1.103157] (-) TimerEvent: {}
+[1.203572] (-) TimerEvent: {}
+[1.303995] (-) TimerEvent: {}
+[1.404406] (-) TimerEvent: {}
+[1.504982] (-) TimerEvent: {}
+[1.605380] (-) TimerEvent: {}
+[1.705756] (-) TimerEvent: {}
+[1.806159] (-) TimerEvent: {}
+[1.906574] (-) TimerEvent: {}
+[2.006999] (-) TimerEvent: {}
+[2.107410] (-) TimerEvent: {}
+[2.207837] (-) TimerEvent: {}
+[2.308247] (-) TimerEvent: {}
+[2.408708] (-) TimerEvent: {}
+[2.509322] (-) TimerEvent: {}
+[2.609792] (-) TimerEvent: {}
+[2.710164] (-) TimerEvent: {}
+[2.810712] (-) TimerEvent: {}
+[2.911133] (-) TimerEvent: {}
+[3.011542] (-) TimerEvent: {}
+[3.112138] (-) TimerEvent: {}
+[3.212564] (-) TimerEvent: {}
+[3.312955] (-) TimerEvent: {}
+[3.413281] (-) TimerEvent: {}
+[3.513614] (-) TimerEvent: {}
+[3.613945] (-) TimerEvent: {}
+[3.714354] (-) TimerEvent: {}
+[3.814774] (-) TimerEvent: {}
+[3.915148] (-) TimerEvent: {}
+[4.015503] (-) TimerEvent: {}
+[4.115916] (-) TimerEvent: {}
+[4.216309] (-) TimerEvent: {}
+[4.316697] (-) TimerEvent: {}
+[4.417111] (-) TimerEvent: {}
+[4.517521] (-) TimerEvent: {}
+[4.617924] (-) TimerEvent: {}
+[4.718322] (-) TimerEvent: {}
+[4.818656] (-) TimerEvent: {}
+[4.919010] (-) TimerEvent: {}
+[5.019430] (-) TimerEvent: {}
+[5.119838] (-) TimerEvent: {}
+[5.220239] (-) TimerEvent: {}
+[5.320681] (-) TimerEvent: {}
+[5.421068] (-) TimerEvent: {}
+[5.521477] (-) TimerEvent: {}
+[5.621868] (-) TimerEvent: {}
+[5.722263] (-) TimerEvent: {}
+[5.822646] (-) TimerEvent: {}
+[5.923042] (-) TimerEvent: {}
+[6.023376] (-) TimerEvent: {}
+[6.123739] (-) TimerEvent: {}
+[6.224059] (-) TimerEvent: {}
+[6.324391] (-) TimerEvent: {}
+[6.424906] (-) TimerEvent: {}
+[6.525289] (-) TimerEvent: {}
+[6.625687] (-) TimerEvent: {}
+[6.726088] (-) TimerEvent: {}
+[6.826473] (-) TimerEvent: {}
+[6.926863] (-) TimerEvent: {}
+[7.027254] (-) TimerEvent: {}
+[7.127649] (-) TimerEvent: {}
+[7.228036] (-) TimerEvent: {}
+[7.328527] (-) TimerEvent: {}
+[7.428940] (-) TimerEvent: {}
+[7.529282] (-) TimerEvent: {}
+[7.629655] (-) TimerEvent: {}
+[7.730006] (-) TimerEvent: {}
+[7.830488] (-) TimerEvent: {}
+[7.931106] (-) TimerEvent: {}
+[7.987489] (cmd_vel_sender) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_subscribe\x1b[0m\n'}
+[8.031249] (-) TimerEvent: {}
+[8.131636] (-) TimerEvent: {}
+[8.231996] (-) TimerEvent: {}
+[8.332432] (-) TimerEvent: {}
+[8.427198] (cmd_vel_sender) StdoutLine: {'line': b'[100%] Built target cmd_vel_subscribe\n'}
+[8.432568] (-) TimerEvent: {}
+[8.435282] (cmd_vel_sender) CommandEnded: {'returncode': 0}
+[8.472726] (cmd_vel_sender) JobProgress: {'identifier': 'cmd_vel_sender', 'progress': 'install'}
+[8.479420] (cmd_vel_sender) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/rmer/ros2/sentry/build/cmd_vel_sender'], 'cwd': '/home/rmer/ros2/sentry/build/cmd_vel_sender', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'rmer'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/rmer/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rmer'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '313590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rmer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rmer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rmer/arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/rmer-Swift-SFX14-41G:@/tmp/.ICE-unix/313590,unix/rmer-Swift-SFX14-41G:/tmp/.ICE-unix/313590'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b05a77cd_f748_41ce_9f2d_3a1ff0eebdc6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8fe68ad677.sock'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rmer/ros2/sentry/build/cmd_vel_sender'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d340578be74856b7abcbf4c867b83b14'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.482759] (cmd_vel_sender) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.483242] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_publisher\n'}
+[8.483506] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_subscribe\n'}
+[8.488882] (cmd_vel_sender) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmer/ros2/sentry/install/cmd_vel_sender/lib/cmd_vel_sender/cmd_vel_subscribe" to ""\n'}
+[8.489089] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/package_run_dependencies/cmd_vel_sender\n'}
+[8.489170] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/parent_prefix_path/cmd_vel_sender\n'}
+[8.489406] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/ament_prefix_path.sh\n'}
+[8.489505] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/ament_prefix_path.dsv\n'}
+[8.489579] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/path.sh\n'}
+[8.489656] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/environment/path.dsv\n'}
+[8.489730] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.bash\n'}
+[8.489837] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.sh\n'}
+[8.489979] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.zsh\n'}
+[8.490064] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/local_setup.dsv\n'}
+[8.490147] (cmd_vel_sender) StdoutLine: {'line': b'-- Installing: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/package.dsv\n'}
+[8.490223] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/ament_index/resource_index/packages/cmd_vel_sender\n'}
+[8.490296] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/cmake/cmd_vel_senderConfig.cmake\n'}
+[8.490369] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/cmake/cmd_vel_senderConfig-version.cmake\n'}
+[8.490441] (cmd_vel_sender) StdoutLine: {'line': b'-- Up-to-date: /home/rmer/ros2/sentry/install/cmd_vel_sender/share/cmd_vel_sender/package.xml\n'}
+[8.491645] (cmd_vel_sender) CommandEnded: {'returncode': 0}
+[8.533045] (-) TimerEvent: {}
+[8.538472] (cmd_vel_sender) JobEnded: {'identifier': 'cmd_vel_sender', 'rc': 0}
+[8.539506] (-) EventReactorShutdown: {}
